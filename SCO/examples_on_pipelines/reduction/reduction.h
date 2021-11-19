@@ -9,7 +9,7 @@
 #if !defined(ITYPE)
 #warning "compiling with double type"
 #define DTYPE  double         // type of data
-#define DATYPE double         // type for accumulator
+#define DATYPE long double         // type for accumulator
 #else
 #warning "compiling with int type"
 #define DTYPE  unsigned int               // type of data
